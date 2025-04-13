@@ -24,6 +24,11 @@ jobs:
           pip install requests beautifulsoup4 markdown unittest-xml-reporting
 
       - name: Run tests
+        env:
+          NEWT_SPACE_UID: test_space
+          NEWT_APP_UID: test_app
+          NEWT_API_TOKEN: test_token
+          NEWT_ARTICLE_MODEL_UID: test_article_model
         run: |
           cd .github/scripts/tests
           python -m unittest discover -v
