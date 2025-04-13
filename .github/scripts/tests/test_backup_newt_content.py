@@ -80,22 +80,24 @@ class TestBackupNewtContent(unittest.TestCase):
     def test_download_image(self, mock_get):
         mock_response = MagicMock()
         mock_response.status_code = 200
-        
-        class MockRaw:
-            def read(self, size=None):
-                return b'test image data'
-                
-        mock_response.raw = MockRaw()
         mock_get.return_value = mock_response
         
-        image_path = os.path.join(self.test_dir, 'test-image.jpg')
-        result = backup_newt_content.download_image('https://example.com/test-image.jpg', image_path)
-        self.assertTrue(result)
-        mock_get.assert_called_with('https://example.com/test-image.jpg', stream=True)
-        
-        mock_response.status_code = 404
-        result = backup_newt_content.download_image('https://example.com/not-found.jpg', image_path)
-        self.assertFalse(result)
+        with patch('builtins.open', unittest.mock.mock_open()) as mock_open:
+            with patch('shutil.copyfileobj') as mock_copyfileobj:
+                image_path = os.path.join(self.test_dir, 'test-image.jpg')
+                result = backup_newt_content.download_image('https://example.com/test-image.jpg', image_path)
+                self.assertTrue(result)
+                mock_get.assert_called_with('https://example.com/test-image.jpg', stream=True)
+                
+                mock_response.status_code = 404
+                result = backup_newt_content.download_image('https://example.com/not-found.jpg', image_path)
+                self.assertFalse(result)
+                
+                mock_response.status_code = 200
+                result = backup_newt_content.download_image('/images/test-image.jpg', image_path)
+                self.assertTrue(result)
+                expected_url = f"https://{backup_newt_content.SPACE_UID}.cdn.newt.so/images/test-image.jpg"
+                mock_get.assert_called_with(expected_url, stream=True)
 
     def test_process_html_content(self):
         slug_dir = os.path.join(self.test_dir, 'test-slug')
