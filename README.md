@@ -82,6 +82,51 @@ Newtでwebhookを設定するには：
 
 詳細は[Newtのドキュメント](https://www.newt.so/docs/tutorials/trigger-github-actions-with-webhooks)を参照してください。
 
+## ローカルでのテスト方法
+
+バックアップスクリプトをローカルで実行してテストするには：
+
+1. リポジトリをクローン：
+   ```
+   git clone https://github.com/yukyu30/public_articles.git
+   cd public_articles
+   ```
+
+2. 必要なPythonパッケージをインストール：
+   ```
+   pip install requests beautifulsoup4 markdown
+   ```
+
+3. 環境変数を設定：
+   ```
+   export NEWT_SPACE_UID="あなたのスペースUID"
+   export NEWT_APP_UID="あなたのアプリケーションUID"
+   export NEWT_API_TOKEN="あなたのAPIトークン"
+   export NEWT_ARTICLE_MODEL_UID="記事モデルのUID"
+   export NEWT_TAG_MODEL_UID="タグモデルのUID"
+   export NEWT_WORK_MODEL_UID="作品モデルのUID"
+   ```
+
+4. スクリプトを実行：
+   ```
+   python .github/scripts/backup_newt_content.py
+   ```
+
+### テストスクリプトの実行
+
+バックアップスクリプトの単体テストを実行するには：
+
+1. テスト用のPythonパッケージをインストール：
+   ```
+   pip install unittest mock
+   ```
+
+2. テストを実行：
+   ```
+   cd .github/scripts/tests
+   python simple_test.py
+   ```
+
 ## トラブルシューティング
 
 ### ワークフローが失敗する場合
@@ -95,3 +140,4 @@ Newtでwebhookを設定するには：
 1. 画像URLが公開されているか確認
 2. 画像URLが正しいか確認
 3. 画像のサイズが大きすぎないか確認
+4. 相対URLの場合（/から始まるURL）、正しいドメインに変換されているか確認
