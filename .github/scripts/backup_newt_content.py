@@ -13,11 +13,9 @@ SPACE_UID = os.environ.get('NEWT_SPACE_UID')
 APP_UID = os.environ.get('NEWT_APP_UID')
 API_TOKEN = os.environ.get('NEWT_API_TOKEN')
 ARTICLE_MODEL_UID = os.environ.get('NEWT_ARTICLE_MODEL_UID')
-TAG_MODEL_UID = os.environ.get('NEWT_TAG_MODEL_UID')
-WORK_MODEL_UID = os.environ.get('NEWT_WORK_MODEL_UID')
 
 if not all([SPACE_UID, APP_UID, API_TOKEN, ARTICLE_MODEL_UID]):
-    raise ValueError("環境変数が設定されていません。少なくともNEWT_SPACE_UID, NEWT_APP_UID, NEWT_API_TOKEN, NEWT_ARTICLE_MODEL_UIDが必要です。")
+    raise ValueError("環境変数が設定されていません。NEWT_SPACE_UID, NEWT_APP_UID, NEWT_API_TOKEN, NEWT_ARTICLE_MODEL_UIDが必要です。")
 
 BASE_URL = f"https://{SPACE_UID}.cdn.newt.so/v1"
 
@@ -49,6 +47,9 @@ def get_content_slug(content):
 def download_image(image_url, output_path):
     """画像をダウンロードして保存する"""
     try:
+        if image_url.startswith('/'):
+            image_url = f"https://{SPACE_UID}.cdn.newt.so{image_url}"
+        
         response = requests.get(image_url, stream=True)
         if response.status_code == 200:
             with open(output_path, 'wb') as f:
@@ -181,22 +182,6 @@ def main():
             print(f"{len(article_contents)}件の記事コンテンツを取得しました")
             
             for content in article_contents:
-                if save_content_as_markdown(content, repository_root):
-                    new_content_count += 1
-        
-        if TAG_MODEL_UID:
-            tag_contents = fetch_contents(TAG_MODEL_UID)
-            print(f"{len(tag_contents)}件のタグコンテンツを取得しました")
-            
-            for content in tag_contents:
-                if save_content_as_markdown(content, repository_root):
-                    new_content_count += 1
-        
-        if WORK_MODEL_UID:
-            work_contents = fetch_contents(WORK_MODEL_UID)
-            print(f"{len(work_contents)}件の作品コンテンツを取得しました")
-            
-            for content in work_contents:
                 if save_content_as_markdown(content, repository_root):
                     new_content_count += 1
         
