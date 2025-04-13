@@ -49,6 +49,9 @@ def get_content_slug(content):
 def download_image(image_url, output_path):
     """画像をダウンロードして保存する"""
     try:
+        if image_url.startswith('/'):
+            image_url = f"https://{SPACE_UID}.cdn.newt.so{image_url}"
+        
         response = requests.get(image_url, stream=True)
         if response.status_code == 200:
             with open(output_path, 'wb') as f:
