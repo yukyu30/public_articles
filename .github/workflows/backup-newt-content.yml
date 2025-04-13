@@ -35,8 +35,29 @@ jobs:
         run: python .github/scripts/backup_newt_content.py
 
       - name: Commit and push if there are changes
+        id: commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions"
           git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update content from Newt [skip ci]" && git push)
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            git commit -m "Update content from Newt [skip ci]"
+            git push
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "Changes committed and pushed"
+          fi
+          
+      - name: Create summary
+        if: steps.commit.outputs.changes == 'true'
+        run: |
+          echo "## バックアップ完了 :white_check_mark:" >> $GITHUB_STEP_SUMMARY
+          echo "Newtからのコンテンツバックアップが完了しました。" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 更新内容" >> $GITHUB_STEP_SUMMARY
+          echo "新しく追加されたファイル一覧：" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          git diff --name-only HEAD~1 HEAD >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
