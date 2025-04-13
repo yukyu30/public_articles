@@ -30,8 +30,6 @@ jobs:
           NEWT_APP_UID: ${{ secrets.NEWT_APP_UID }}
           NEWT_API_TOKEN: ${{ secrets.NEWT_API_TOKEN }}
           NEWT_ARTICLE_MODEL_UID: ${{ secrets.NEWT_ARTICLE_MODEL_UID }}
-          NEWT_TAG_MODEL_UID: ${{ secrets.NEWT_TAG_MODEL_UID }}
-          NEWT_WORK_MODEL_UID: ${{ secrets.NEWT_WORK_MODEL_UID }}
         run: python .github/scripts/backup_newt_content.py
 
       - name: Commit and push if there are changes
