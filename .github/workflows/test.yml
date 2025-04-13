@@ -27,10 +27,3 @@ jobs:
         run: |
           cd .github/scripts/tests
           python -m unittest discover -v
-
-      - name: Upload test results
-        if: always()
-        uses: actions/upload-artifact@v2
-        with:
-          name: test-results
-          path: .github/scripts/tests/TEST-*.xml
