@@ -1,4 +1,3 @@
-
 import os
 import json
 import re
@@ -215,7 +214,16 @@ def main():
         years_count = {}
         
         if ARTICLE_MODEL_UID:
-            article_contents = fetch_contents(ARTICLE_MODEL_UID)
+            # テキスト形式で本文を取得するためのクエリパラメータを設定
+            query_params = {
+                'body[fmt]': 'text',
+                'content[fmt]': 'text',
+                'text[fmt]': 'text',
+                'description[fmt]': 'text',
+                'markdown[fmt]': 'text',
+                'html[fmt]': 'text'
+            }
+            article_contents = fetch_contents(ARTICLE_MODEL_UID, query_params)
             print(f"{len(article_contents)}件の記事コンテンツを取得しました")
             
             for content in article_contents:

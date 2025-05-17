@@ -1,4 +1,3 @@
-
 import os
 import json
 import re
@@ -24,15 +23,38 @@ HEADERS = {
     'Content-Type': 'application/json'
 }
 
-def fetch_contents(model_uid):
+def fetch_contents(model_uid, query_params=None):
     """NewtのCDN APIからコンテンツを取得する"""
     url = f"{BASE_URL}/{APP_UID}/{model_uid}"
-    response = requests.get(url, headers=HEADERS)
     
-    if response.status_code != 200:
-        raise Exception(f"APIリクエストが失敗しました: {response.status_code} - {response.text}")
+    params = {}
+    if query_params:
+        params.update(query_params)
+    
+    all_items = []
+    has_more = True
+    skip = 0
+    limit = 100  # 一度に取得する最大件数
+    
+    while has_more:
+        params['skip'] = skip
+        params['limit'] = limit
         
-    return response.json().get('items', [])
+        response = requests.get(url, headers=HEADERS, params=params)
+        
+        if response.status_code != 200:
+            raise Exception(f"APIリクエストが失敗しました: {response.status_code} - {response.text}")
+        
+        data = response.json()
+        items = data.get('items', [])
+        all_items.extend(items)
+        
+        if len(items) < limit:
+            has_more = False
+        else:
+            skip += limit
+    
+    return all_items
 
 def get_content_slug(content):
     """コンテンツからslugを取得する"""
@@ -178,7 +200,16 @@ def main():
         new_content_count = 0
         
         if ARTICLE_MODEL_UID:
-            article_contents = fetch_contents(ARTICLE_MODEL_UID)
+            # テキスト形式で本文を取得するためのクエリパラメータを設定
+            query_params = {
+                'body[fmt]': 'text',
+                'content[fmt]': 'text',
+                'text[fmt]': 'text',
+                'description[fmt]': 'text',
+                'markdown[fmt]': 'text',
+                'html[fmt]': 'text'
+            }
+            article_contents = fetch_contents(ARTICLE_MODEL_UID, query_params)
             print(f"{len(article_contents)}件の記事コンテンツを取得しました")
             
             for content in article_contents:
