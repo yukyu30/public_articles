@@ -24,7 +24,7 @@ updated_at: 2025-02-12T12:22:39.010Z
 ホテルで夕食を食べた。こんにゃく寿司という群馬に住んでいた自分もはじめての寿司を食べた。
 ![草津スキーxlarge(2).jpg](https://yukyu-net-production.s3.ap-northeast-1.amazonaws.com/119a4524-bae5-4c1a-b75b-1cf3f937b992/%E8%8D%89%E6%B4%A5%E3%82%B9%E3%82%AD%E3%83%BCxlarge(2).jpg)
 そのあとは、ホテルから出ているバスで湯畑に行き、散策をした。
-![草津スキーxlarge.jpg](%E8%8D%89%E6%B4%A5%E3%82%B9%E3%82%AD%E3%83%BCxlarge.jpg)
+![草津スキーxlarge.jpg](草津スキーxlarge.jpg)
 湯畑にある御座之湯に行った。
 ふたつの源泉を楽しめるようになっていた。湯煙とあかりが相まって、とても良い雰囲気だった。
 

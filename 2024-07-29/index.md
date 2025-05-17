@@ -75,7 +75,7 @@ updated_at: 2025-01-01T14:07:05.641Z
 
 ## 今回の着用アイテム
 [kaihenにも投稿した](https://kaihen.jp/post_detail/1722095332952x983570316771983400)が改めて今回のコーディネートで使ったアイテムを紹介していく。
-![Sumi3Dリアルクローズ集会.jpeg](Sumi3D%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B9%E3%82%99%E9%9B%86%E4%BC%9A.jpeg)
+![Sumi3Dリアルクローズ集会.jpeg](Sumi3Dリアルクローズ集会.jpeg)
 
 ### SUZURI
 <div><div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 52.5%; padding-top: 120px;"><iframe title="【VRCHAT想定3Dモデル】HalfDeadPierces【アクセサリ】 by こいわずらい。 ( KoiWasLie ) ∞ SUZURI" data-iframely-url="//cdn.iframe.ly/api/iframe?app=1&url=https%3A%2F%2Fsuzuri.jp%2FKoiWasLie%2Fdigital_products%2F44852&key=878c5bef402f0b2911bf6d4ce6261abd" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen></iframe></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
