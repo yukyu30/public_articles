@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from pathlib import Path
 import hashlib
 import shutil
-from urllib.parse import urlparse
+from urllib.parse import urlparse, quote, unquote
 
 SPACE_UID = os.environ.get('NEWT_SPACE_UID')
 APP_UID = os.environ.get('NEWT_APP_UID')
@@ -72,7 +72,15 @@ def download_image(image_url, output_path):
         if image_url.startswith('/'):
             image_url = f"https://{SPACE_UID}.cdn.newt.so{image_url}"
         
-        response = requests.get(image_url, stream=True)
+        # URLをパースしてパス部分をエンコード
+        parsed_url = urlparse(image_url)
+        path = parsed_url.path
+        encoded_path = quote(path, safe='/%')
+        
+        # エンコードされたパスでURLを再構築
+        encoded_url = parsed_url._replace(path=encoded_path).geturl()
+        
+        response = requests.get(encoded_url, stream=True)
         if response.status_code == 200:
             with open(output_path, 'wb') as f:
                 shutil.copyfileobj(response.raw, f)
@@ -88,12 +96,21 @@ def generate_filename(url):
     """URLからファイル名を生成する"""
     parsed_url = urlparse(url)
     path = parsed_url.path
-    filename = os.path.basename(path)
     
+    # URLエンコードされている場合はデコードする
+    decoded_path = unquote(path)
+    filename = os.path.basename(decoded_path)
+    
+    # ファイル名がない、または短すぎる場合はハッシュを使用
     if not filename or len(filename) < 5:
         hash_object = hashlib.md5(url.encode())
         ext = os.path.splitext(path)[1] or '.jpg'  # 拡張子がない場合はjpgとする
         filename = f"{hash_object.hexdigest()[:10]}{ext}"
+    
+    # ファイル名に使えない文字を置換
+    invalid_chars = ['\\', '/', ':', '*', '?', '"', '<', '>', '|']
+    for char in invalid_chars:
+        filename = filename.replace(char, '_')
         
     return filename
 
