@@ -184,7 +184,8 @@ def save_content_as_markdown(content, repository_root, tags_data=None):
     try:
         slug = get_content_slug(content)
         
-        slug_dir = os.path.join(repository_root, slug)
+        # sourceディレクトリ配下にslugディレクトリを作成
+        slug_dir = os.path.join(repository_root, "source", slug)
         os.makedirs(slug_dir, exist_ok=True)
         
         md_file_path = os.path.join(slug_dir, 'index.md')

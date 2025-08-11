@@ -3,9 +3,56 @@ from unittest.mock import patch, MagicMock, Mock
 import sys
 import os
 import json
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '.github/scripts')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '.github', 'scripts')))
 
 class TestFullSyncNewtContent(unittest.TestCase):
+    
+    @patch.dict(os.environ, {
+        'NEWT_SPACE_UID': 'test_space',
+        'NEWT_APP_UID': 'test_app',
+        'NEWT_API_TOKEN': 'test_token',
+        'NEWT_ARTICLE_MODEL_UID': 'test_article',
+        'NEWT_TAG_MODEL_UID': 'test_tag'
+    })
+    @patch('full_sync_newt_content.requests.get')
+    def test_save_content_with_source_path(self, mock_get):
+        """コンテンツが/source/<slug>に保存されることを確認"""
+        import tempfile
+        import shutil
+        from full_sync_newt_content import save_content_as_markdown
+        
+        # テスト用の一時ディレクトリを作成
+        test_dir = tempfile.mkdtemp()
+        
+        try:
+            # モックコンテンツ
+            content = {
+                "_id": "article1",
+                "title": "テスト記事",
+                "slug": "test-article",
+                "body": "記事の本文",
+                "tags": [],
+                "_sys": {
+                    "createdAt": "2023-01-15T10:30:00.000Z",
+                    "updatedAt": "2023-01-16T10:30:00.000Z"
+                }
+            }
+            
+            # save_content_as_markdownを呼び出し
+            save_content_as_markdown(content, test_dir, [])
+            
+            # ファイルが正しいパスに作成されたことを確認
+            file_path = os.path.join(test_dir, "source", "test-article", "index.md")
+            self.assertTrue(os.path.exists(file_path))
+            
+            # ファイルの内容を確認
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content_text = f.read()
+                self.assertIn("title: テスト記事", content_text)
+                
+        finally:
+            # テンポラリディレクトリを削除
+            shutil.rmtree(test_dir)
     
     @patch.dict(os.environ, {
         'NEWT_SPACE_UID': 'test_space',
@@ -69,7 +116,7 @@ class TestFullSyncNewtContent(unittest.TestCase):
             save_content_as_markdown(content, test_dir, tags_data)
             
             # ファイルが作成されたことを確認
-            file_path = os.path.join(test_dir, "test-article", "index.md")
+            file_path = os.path.join(test_dir, "source", "test-article", "index.md")
             self.assertTrue(os.path.exists(file_path))
             
             # ファイルの内容を確認
