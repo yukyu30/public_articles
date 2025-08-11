@@ -13,6 +13,7 @@ SPACE_UID = os.environ.get('NEWT_SPACE_UID')
 APP_UID = os.environ.get('NEWT_APP_UID')
 API_TOKEN = os.environ.get('NEWT_API_TOKEN')
 ARTICLE_MODEL_UID = os.environ.get('NEWT_ARTICLE_MODEL_UID')
+TAG_MODEL_UID = 'tag'
 INCLUDE_EXISTING = os.environ.get('INCLUDE_EXISTING', 'false').lower() == 'true'
 
 if not all([SPACE_UID, APP_UID, API_TOKEN, ARTICLE_MODEL_UID]):
@@ -57,6 +58,22 @@ def fetch_contents(model_uid, query_params=None):
             skip += limit
     
     return all_items
+
+def resolve_tag_references(tag_ids, tags_data):
+    """タグIDのリストからタグ名のリストを返す"""
+    if not tag_ids:
+        return []
+    
+    # タグデータをIDをキーとした辞書に変換
+    tags_dict = {tag['_id']: tag for tag in tags_data}
+    
+    # タグIDからタグ名を取得
+    tag_names = []
+    for tag_id in tag_ids:
+        if tag_id in tags_dict:
+            tag_names.append(tags_dict[tag_id].get('name', ''))
+    
+    return tag_names
 
 def get_content_slug(content):
     """コンテンツからslugを取得する"""
@@ -162,7 +179,7 @@ def process_markdown_content(md_content, slug_dir):
     
     return re.sub(pattern, replace_image, md_content)
 
-def save_content_as_markdown(content, repository_root):
+def save_content_as_markdown(content, repository_root, tags_data=None):
     """コンテンツをMarkdownファイルとして保存する"""
     try:
         slug = get_content_slug(content)
@@ -176,11 +193,19 @@ def save_content_as_markdown(content, repository_root):
             print(f"既存のファイルをスキップ: {md_file_path}")
             return False
         
+        # タグIDからタグ名に変換
+        tag_ids = content.get("tags", [])
+        if tags_data and tag_ids:
+            tag_names = resolve_tag_references(tag_ids, tags_data)
+        else:
+            tag_names = []
+        
         metadata = {
             "id": content.get("_id", ""),
             "title": content.get("title", ""),
             "created_at": content.get("_sys", {}).get("createdAt", ""),
-            "updated_at": content.get("_sys", {}).get("updatedAt", "")
+            "updated_at": content.get("_sys", {}).get("updatedAt", ""),
+            "tags": tag_names
         }
         
         body_fields = ["body", "content", "text", "description", "markdown", "html"]
@@ -199,7 +224,14 @@ def save_content_as_markdown(content, repository_root):
         with open(md_file_path, 'w', encoding='utf-8') as f:
             f.write("---\n")
             for key, value in metadata.items():
-                f.write(f"{key}: {value}\n")
+                if key == "tags" and isinstance(value, list):
+                    # タグをYAMLのリスト形式で出力
+                    if value:
+                        f.write(f"tags: {json.dumps(value, ensure_ascii=False)}\n")
+                    else:
+                        f.write("tags: []\n")
+                else:
+                    f.write(f"{key}: {value}\n")
             f.write("---\n\n")
             
             f.write(processed_body)
@@ -230,6 +262,16 @@ def main():
         new_content_count = 0
         years_count = {}
         
+        # タグデータを取得
+        tags_data = []
+        if TAG_MODEL_UID:
+            try:
+                tags_data = fetch_contents(TAG_MODEL_UID)
+                print(f"{len(tags_data)}件のタグを取得しました")
+            except Exception as e:
+                print(f"タグの取得に失敗しました: {e}")
+                # タグの取得に失敗しても処理を継続
+        
         if ARTICLE_MODEL_UID:
             # テキスト形式で本文を取得するためのクエリパラメータを設定
             query_params = {
@@ -253,7 +295,7 @@ def main():
                 print(f"  {year}年: {count}件")
             
             for content in article_contents:
-                if save_content_as_markdown(content, repository_root):
+                if save_content_as_markdown(content, repository_root, tags_data):
                     new_content_count += 1
                     year = get_year_from_content(content)
                     if year:

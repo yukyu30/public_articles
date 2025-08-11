@@ -1,0 +1,20 @@
+{
+  "name": "public_articles",
+  "version": "1.0.0",
+  "description": "yukyu.net blog articles",
+  "scripts": {
+    "new": "node scripts/create-article.js",
+    "list": "node scripts/list-articles.js",
+    "preview": "node scripts/preview-article.js",
+    "install-hooks": "node scripts/install-hooks.js",
+    "uninstall-hooks": "node scripts/uninstall-hooks.js",
+    "update-frontmatter": "node scripts/update-frontmatter.js"
+  },
+  "type": "module",
+  "keywords": [
+    "blog",
+    "articles"
+  ],
+  "author": "yukyu30",
+  "license": "MIT"
+}
