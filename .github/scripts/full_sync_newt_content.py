@@ -69,8 +69,14 @@ def resolve_tag_references(tag_ids, tags_data):
     
     # タグIDからタグ名を取得
     tag_names = []
-    for tag_id in tag_ids:
-        if tag_id in tags_dict:
+    for tag_item in tag_ids:
+        # タグが辞書型（リファレンス）の場合はIDを取得
+        if isinstance(tag_item, dict):
+            tag_id = tag_item.get('_id')
+        else:
+            tag_id = tag_item
+            
+        if tag_id and tag_id in tags_dict:
             tag_names.append(tags_dict[tag_id].get('name', ''))
     
     return tag_names
