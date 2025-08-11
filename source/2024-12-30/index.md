@@ -3,6 +3,7 @@ id: 677178d8fa57f39945fc9ea6
 title: ミッケ!を読んでいる
 created_at: 2024-12-29T17:13:07.671Z
 updated_at: 2024-12-29T17:13:21.250Z
+tags: ["読書", "日記"]
 ---
 
 最近、絵本を読もうと思い立ち、[ミッケ!](https://www.shogakukan.co.jp/pr/mikke/)を読んでいる。

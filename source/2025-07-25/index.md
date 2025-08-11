@@ -3,6 +3,7 @@ id: 687fa2df8a8fa95c5cad4ede
 title: CEDEC2025に行った
 created_at: 2025-07-24T15:35:49.150Z
 updated_at: 2025-07-24T15:36:08.797Z
+tags: ["日記", "イベント", "おでかけ"]
 ---
 
 CEDEC2025に行ってきた。

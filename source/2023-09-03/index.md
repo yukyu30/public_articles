@@ -3,6 +3,7 @@ id: 67643aaf3e1a6e2b1afa0f47
 title: SUZURIへの配属から1年経った
 created_at: 2023-09-02T15:25:00.000Z
 updated_at: 2025-01-01T15:37:21.213Z
+tags: ["日記", "振り返り"]
 ---
 
 SUZURIに配属されて一年たったので、振り返りをYWDT形式で書いていきます。

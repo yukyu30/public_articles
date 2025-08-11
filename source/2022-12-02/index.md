@@ -3,6 +3,7 @@ id: 67757374c30fdb8001c1fbb1
 title: 一年前の自分から手紙が届いた
 created_at: 2022-12-02T00:00:00.000Z
 updated_at: 2025-01-01T16:55:16.946Z
+tags: ["日記", "振り返り", "Advent Calendar"]
 ---
 
 

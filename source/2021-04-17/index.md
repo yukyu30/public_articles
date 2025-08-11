@@ -3,6 +3,7 @@ id: 67765bb5bfa5de04d4f02ea7
 title: コロナが収まったらしたいこと
 created_at: 2021-04-17T00:00:00.000Z
 updated_at: 2025-01-02T09:26:16.969Z
+tags: ["日記"]
 ---
 
 

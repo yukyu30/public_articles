@@ -3,6 +3,7 @@ id: 67756f15c30fdb8001c08756
 title: Sanrio VFes ツアーに行ってた
 created_at: 2023-01-15T00:00:00.000Z
 updated_at: 2025-01-01T16:37:24.642Z
+tags: ["日記", "イベント"]
 ---
 
 

@@ -3,6 +3,7 @@ id: 67765aa3bfa5de04d4ef9908
 title: 就活が終わりました
 created_at: 2021-06-30T00:00:00.000Z
 updated_at: 2025-01-02T09:21:43.987Z
+tags: ["日記"]
 ---
 
 

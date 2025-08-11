@@ -3,6 +3,7 @@ id: 670be412aa5d5eca8673a632
 title: Readwise / Eagle であらゆるものをまとめたい
 created_at: 2024-10-13T15:18:09.620Z
 updated_at: 2024-11-03T03:34:17.244Z
+tags: ["日記"]
 ---
 
 Readwise ReaderとEagleを使い始めた。

@@ -3,6 +3,7 @@ id: 67754de9c30fdb8001b1979a
 title: End-User Developmentと生成AI
 created_at: 2024-07-01T00:00:00.000Z
 updated_at: 2025-01-01T14:16:24.285Z
+tags: ["日記"]
 ---
 
 結論も、オチもない話です。

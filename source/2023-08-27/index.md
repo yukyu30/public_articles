@@ -3,6 +3,7 @@ id: 6775654dc30fdb8001bb269e
 title: #フレッシュメンLT でLTした
 created_at: 2023-08-27T00:00:00.000Z
 updated_at: 2025-01-01T16:35:19.811Z
+tags: ["日記", "つくったもの", "登壇", "イベント"]
 ---
 
 [フレッシュメンLT #0 夏祭り](https://connpass.com/event/285559/)でLTをしました。

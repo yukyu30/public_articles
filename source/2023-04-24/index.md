@@ -3,6 +3,7 @@ id: 677569f0c30fdb8001be08e0
 title: AITuber備忘録
 created_at: 2023-04-24T00:00:00.000Z
 updated_at: 2025-01-01T16:15:06.280Z
+tags: ["日記", "つくったもの"]
 ---
 
 

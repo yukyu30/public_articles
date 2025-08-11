@@ -3,6 +3,7 @@ id: 6775596fc30fdb8001b479ac
 title: あおき量産というYouTubeチャンネルにハマっている
 created_at: 2024-03-24T00:00:00.000Z
 updated_at: 2025-01-01T15:04:15.624Z
+tags: ["日記"]
 ---
 
 

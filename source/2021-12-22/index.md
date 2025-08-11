@@ -3,6 +3,7 @@ id: 677658b7bfa5de04d4eeced3
 title: 友人に髪を切ってもらった
 created_at: 2021-12-22T00:00:00.000Z
 updated_at: 2025-01-02T09:13:32.549Z
+tags: ["日記"]
 ---
 
 

@@ -3,6 +3,7 @@ id: 67755925c30fdb8001b44e60
 title: TENTのTEMPO/世田谷公園
 created_at: 2024-03-31T00:00:00.000Z
 updated_at: 2025-01-01T15:14:36.208Z
+tags: ["日記", "おでかけ"]
 ---
 
 

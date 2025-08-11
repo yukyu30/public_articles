@@ -3,6 +3,7 @@ id: 677638debfa5de04d4e30eb4
 title: CryptoAgeに参加した
 created_at: 2022-04-09T00:00:00.000Z
 updated_at: 2025-01-02T06:57:57.382Z
+tags: ["日記", "イベント"]
 ---
 
 

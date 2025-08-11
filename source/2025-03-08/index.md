@@ -2,7 +2,8 @@
 id: 67cbf203e4f3e9200999bdb0
 title: 新卒説明会 in VRChatを終えて
 created_at: 2025-03-08T12:13:19.292Z
-updated_at: 2025-03-08T14:04:22.257Z
+updated_at: 2025-06-26T16:50:59.254Z
+tags: ["日記", "目標", "イベント", "振り返り"]
 ---
 
 3月7日にGMOペパボの新卒説明会をVRChatで行なった。
@@ -51,6 +52,8 @@ hermanに見せながらフィードバックをもらいつつ、途中から�
 壁を乗り越えるのではなく、むしろ壊し、領域を隔てる境界をなくして、自由に行き来できるようになりたい。
 
 
+GMOペパボ メタバース関連特設サイト
+[https://pepabo.com/metaverse/](https://pepabo.com/metaverse/)
 
 
 

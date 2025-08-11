@@ -3,6 +3,7 @@ id: 67755011c30fdb8001b23fea
 title: つくるは自由だ。SUZURI 10周年
 created_at: 2024-06-05T00:00:00.000Z
 updated_at: 2025-01-01T14:24:43.326Z
+tags: ["日記"]
 ---
 
 

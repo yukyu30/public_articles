@@ -3,6 +3,7 @@ id: 67643e563e1a6e2b1afab5f5
 title: 課題を解決できるって素敵
 created_at: 2024-07-27T15:40:00.000Z
 updated_at: 2024-12-19T15:40:15.862Z
+tags: ["日記"]
 ---
 
 Xで[the 社史](https://the-shashi.com)というサイトを見つけたので、眺めていた。

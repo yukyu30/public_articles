@@ -3,6 +3,7 @@ id: 677658ebbfa5de04d4eeef43
 title: 祝メジャーデビュー
 created_at: 2021-11-23T00:00:00.000Z
 updated_at: 2025-01-02T09:14:24.453Z
+tags: ["日記"]
 ---
 
 
