@@ -3,6 +3,7 @@ id: 67757538c30fdb8001c38d59
 title: Pixel Watchを使った感想
 created_at: 2022-10-18T00:00:00.000Z
 updated_at: 2025-01-01T17:05:43.654Z
+tags: ["日記", "買ったもの"]
 ---
 
 

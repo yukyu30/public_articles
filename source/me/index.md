@@ -3,6 +3,7 @@ id: 67814f539df15a3e6d2568f9
 title: 自己紹介
 created_at: 2025-01-10T17:27:46.911Z
 updated_at: 2025-01-10T17:27:46.911Z
+tags: ["日記", "お知らせ"]
 ---
 
 ## yukyu

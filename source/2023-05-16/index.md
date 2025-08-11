@@ -3,6 +3,7 @@ id: 67756988c30fdb8001bdbf9a
 title: RubyKaigi2023 に参加した
 created_at: 2023-05-16T00:00:00.000Z
 updated_at: 2025-01-01T16:13:19.028Z
+tags: ["日記", "イベント", "おでかけ"]
 ---
 
 ## RubyKaigi2023に参加しました

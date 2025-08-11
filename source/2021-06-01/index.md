@@ -3,6 +3,7 @@ id: 67765ae3bfa5de04d4efb96d
 title: 推し × 筋トレのWebサービス
 created_at: 2021-06-01T00:00:00.000Z
 updated_at: 2025-01-02T09:22:48.443Z
+tags: ["日記"]
 ---
 
 

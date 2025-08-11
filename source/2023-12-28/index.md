@@ -3,6 +3,7 @@ id: 67755fcec30fdb8001b7b2b2
 title: 2023年に作ったプロダクト7つをまとめて振り返る
 created_at: 2023-12-28T00:00:00.000Z
 updated_at: 2025-01-01T15:32:27.106Z
+tags: ["日記", "振り返り", "Advent Calendar", "つくったもの"]
 ---
 
 

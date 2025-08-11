@@ -3,6 +3,7 @@ id: 67433e9018ae3f8f96383b31
 title: 「TeamGeek」を読んだ
 created_at: 2024-01-14T14:56:00.000Z
 updated_at: 2024-11-24T15:01:56.608Z
+tags: ["読書"]
 ---
 
 

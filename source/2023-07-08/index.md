@@ -3,6 +3,7 @@ id: 67756838c30fdb8001bcebfd
 title: CTOA若手エンジニアコミュニティ勉強会#3に参加した #ctoawakate
 created_at: 2023-07-08T00:00:00.000Z
 updated_at: 2025-01-01T16:07:46.948Z
+tags: ["日記", "イベント"]
 ---
 
 

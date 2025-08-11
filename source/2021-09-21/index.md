@@ -3,6 +3,7 @@ id: 677659dabfa5de04d4ef5ffe
 title: ゲーム会をした！！！
 created_at: 2021-09-21T00:00:00.000Z
 updated_at: 2025-01-02T09:18:26.893Z
+tags: ["日記", "イベント"]
 ---
 
 

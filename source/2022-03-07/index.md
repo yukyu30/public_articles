@@ -3,6 +3,7 @@ id: 677639c0bfa5de04d4e3bb0d
 title: エルデンリングをプレイした
 created_at: 2022-03-07T00:00:00.000Z
 updated_at: 2025-01-02T07:01:26.604Z
+tags: ["日記"]
 ---
 
 

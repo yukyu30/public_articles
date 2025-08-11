@@ -3,6 +3,7 @@ id: 677561e0c30fdb8001b90e01
 title: Kaigi on Rails 2023に行ってきた
 created_at: 2023-10-29T00:00:00.000Z
 updated_at: 2025-01-01T15:40:38.133Z
+tags: ["日記", "イベント"]
 ---
 
 

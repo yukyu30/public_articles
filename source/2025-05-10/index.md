@@ -3,6 +3,7 @@ id: 681f6068c79f9638d5f1f7c4
 title: AI が必要なAPIを契約して欲しい
 created_at: 2025-05-10T14:19:20.545Z
 updated_at: 2025-05-10T14:19:20.545Z
+tags: ["日記"]
 ---
 
 Devin にはDevin APIがある。

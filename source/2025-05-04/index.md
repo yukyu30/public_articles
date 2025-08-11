@@ -3,6 +3,7 @@ id: 6816f47110b21bfeba032046
 title: insta360 go s3を使ってみて
 created_at: 2025-05-04T07:28:57.663Z
 updated_at: 2025-05-04T07:28:57.663Z
+tags: ["買ったもの"]
 ---
 
 アクションカムのinsta360 go s3を3月にかった。

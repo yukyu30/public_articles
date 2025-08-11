@@ -3,6 +3,7 @@ id: 677550cdc30fdb8001b26c23
 title: スパ ラクーアに行った
 created_at: 2024-06-03T00:00:00.000Z
 updated_at: 2025-01-01T15:15:03.765Z
+tags: ["日記", "おでかけ"]
 ---
 
 会社の同僚たちと一緒に[スパ ラクーア](https://www.laqua.jp/spa/facilities/restaurants/)に行ってきた。

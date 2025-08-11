@@ -3,6 +3,7 @@ id: 66f97d4cacd5a6f4c856637c
 title: 誕生日を迎えた & Alive Studioのリリース
 created_at: 2024-09-29T16:16:12.974Z
 updated_at: 2024-11-03T03:33:24.072Z
+tags: ["誕生日"]
 ---
 
 

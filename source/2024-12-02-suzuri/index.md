@@ -3,6 +3,7 @@ id: 674c47e6989391eb5ab2769e
 title: SUZURIのブラックフライデーPR画像作成アプリを作った
 created_at: 2024-12-01T15:00:00.320Z
 updated_at: 2024-12-01T15:00:00.320Z
+tags: ["つくったもの", "Advent Calendar"]
 ---
 
 SUZURI Advent Calendar 2024の2日目です！！！

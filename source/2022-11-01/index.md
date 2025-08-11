@@ -3,6 +3,7 @@ id: 67757486c30fdb8001c2ec1c
 title: 周りを見る
 created_at: 2022-11-01T00:00:00.000Z
 updated_at: 2025-01-01T16:59:54.749Z
+tags: ["日記"]
 ---
 
 

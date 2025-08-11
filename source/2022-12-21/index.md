@@ -3,6 +3,7 @@ id: 677572afc30fdb8001c1b015
 title: M!LKについて語らせてください
 created_at: 2022-12-21T00:00:00.000Z
 updated_at: 2025-01-01T16:52:10.723Z
+tags: ["日記", "Advent Calendar"]
 ---
 
 

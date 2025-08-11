@@ -3,6 +3,7 @@ id: 67765c1cbfa5de04d4f0539f
 title: Mi Watchが届いた
 created_at: 2021-03-07T00:00:00.000Z
 updated_at: 2025-01-02T09:28:00.787Z
+tags: ["日記", "買ったもの"]
 ---
 
 

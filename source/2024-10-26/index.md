@@ -3,6 +3,7 @@ id: 671bb6c18e33fbbc771ac83c
 title: mymindを紹介したい
 created_at: 2024-10-25T16:16:40.909Z
 updated_at: 2024-11-03T03:35:07.593Z
+tags: ["日記"]
 ---
 
 Readwiseを使っていたが、mymindというブックマークツールを見つけて、乗り換えた。

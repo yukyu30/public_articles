@@ -3,6 +3,7 @@ id: 6730a36712314a225c946122
 title: 2024年の"推し"本 (18日目) ~アーキテクチャの生態系~
 created_at: 2024-12-17T16:07:40.817Z
 updated_at: 2024-12-29T16:28:08.288Z
+tags: ["Advent Calendar", "読書"]
 ---
 
 この記事は[2024年の"推し"本 Advent Calendar 2024](https://adventar.org/calendars/10126)の18日目です。

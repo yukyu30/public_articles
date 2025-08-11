@@ -3,6 +3,7 @@ id: 67755d98c30fdb8001b6c554
 title: BuriKaigi2024に参加した
 created_at: 2024-01-24T00:00:00.000Z
 updated_at: 2025-01-01T15:22:26.933Z
+tags: ["日記", "イベント"]
 ---
 
 

@@ -3,6 +3,7 @@ id: 6775533dc30fdb8001b2ec18
 title: Featured Projects 2024に行ってきた
 created_at: 2024-05-27T00:00:00.000Z
 updated_at: 2025-01-01T15:14:54.771Z
+tags: ["日記", "イベント", "買ったもの", "おでかけ"]
 ---
 
 

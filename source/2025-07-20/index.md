@@ -3,6 +3,7 @@ id: 687cf9c4a649a5fc7663ecf8
 title: 佐藤雅彦展に行った
 created_at: 2025-07-20T14:51:14.184Z
 updated_at: 2025-07-20T14:51:14.184Z
+tags: ["日記", "展示会", "おでかけ"]
 ---
 
 待ちに待った横浜美術館の[佐藤雅彦展　新しい×（作り方＋分かり方）](https://yokohama.art.museum/exhibition/202506_satomasahiko/)

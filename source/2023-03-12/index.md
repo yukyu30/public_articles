@@ -3,6 +3,7 @@ id: 67756b45c30fdb8001bebc83
 title: RustやChatGPTを活用したDiscord Bot制作や『Winny』観賞、椿屋珈琲でのカフェタイム：充実した週末を過ごす
 created_at: 2023-03-12T00:00:00.000Z
 updated_at: 2025-01-01T16:23:50.907Z
+tags: ["日記", "おでかけ", "つくったもの"]
 ---
 
 
