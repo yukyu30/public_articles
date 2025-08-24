@@ -3,12 +3,12 @@ id: 6772d837fa57f39945c62898
 title: showreel 2024を作った
 created_at: 2024-12-30T17:52:21.777Z
 updated_at: 2024-12-30T17:52:31.674Z
-tags: ["日記"]
+tags: ["日記", "work"]
 ---
 
 去年、AfterEffectを契約して、今年からやっと使い始めました。時々練習として映像を作っていたので、それらの映像や、開発の成果をまとめた showreelを作りました。
 
-<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe title="showreel 2024" src="https://www.youtube.com/embed/KvNS6M0ZhWg?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KvNS6M0ZhWg?si=38dtU2k9wctMjSew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 完成を目指したルール設定
 自分の場合、大体こだわり始めて完成しない。今回は、作成前に今日中に公開するということにした。

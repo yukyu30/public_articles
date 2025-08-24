@@ -3,7 +3,7 @@ id: 67643f7c3e1a6e2b1afae1b3
 title: 入社前から考えていた機能を実装した
 created_at: 2024-05-11T15:45:00.000Z
 updated_at: 2025-01-01T15:16:56.463Z
-tags: ["日記"]
+tags: ["日記", "work"]
 ---
 
 
