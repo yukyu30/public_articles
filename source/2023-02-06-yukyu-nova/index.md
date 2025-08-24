@@ -7,6 +7,7 @@ tags: ["work", "つくったもの"]
 ---
 
 Glyphsで作成したカスタムフォントです。
+![yukyu nova](./nova.png)
 
 ## 概要
 

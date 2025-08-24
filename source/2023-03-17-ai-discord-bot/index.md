@@ -7,6 +7,7 @@ tags: ["work", "つくったもの"]
 ---
 
 OpenAI APIを活用したRust製Discord botを開発しました。
+![ai-discord-bot](./bot.png)
 
 ## 概要
 

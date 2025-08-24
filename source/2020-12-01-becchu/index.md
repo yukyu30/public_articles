@@ -12,6 +12,8 @@ PHPによるWebアプリケーションを開発しました。
 
 BecchuはPHPを使用して構築したWebアプリケーションです。
 
+![Becchu](./becchu.gif)
+
 ## 技術スタック
 
 - PHP

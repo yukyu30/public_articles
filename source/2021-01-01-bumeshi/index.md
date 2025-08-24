@@ -11,6 +11,7 @@ Ruby on RailsによるWebアプリケーションを開発しました。
 ## 概要
 
 BumeshiはRuby on Railsを使用して構築したWebアプリケーションです。
+![Bumeshi](./bumeshi.gif)
 
 ## 技術スタック
 

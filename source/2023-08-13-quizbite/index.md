@@ -8,7 +8,7 @@ tags: ["work", "つくったもの"]
 
 OpenAI APIを活用したクイズ生成Webアプリケーションを開発しました。
 
-![Quiz Bite](https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=800&h=400&fit=crop)
+![Quiz Bite](./quiz-bite.png)
 
 ## 概要
 

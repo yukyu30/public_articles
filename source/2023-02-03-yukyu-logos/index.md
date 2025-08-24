@@ -7,6 +7,7 @@ tags: ["work", "つくったもの"]
 ---
 
 馬喰電機、神涼運送のロゴをフォント化しました。
+![yukyu logos](./logos.jpeg)
 
 ## 概要
 
@@ -18,4 +19,4 @@ yukyu logosは馬喰電機、神涼運送のロゴをフォント化したカス
 
 ## リンク
 
-- [SUZURI（デジタル販売）](https://suzuri.jp/yukyu30/digital_products/5631)
+- [yukyu logos 飯場ページ(SUZURI)](https://suzuri.jp/yukyu30/digital_products/5631)

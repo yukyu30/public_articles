@@ -7,6 +7,7 @@ tags: ["work", "つくったもの"]
 ---
 
 私の手書き文字をデジタルフォント化しました。
+![yukyu zatutegaki](./zatutegaki.jpeg)
 
 ## 概要
 

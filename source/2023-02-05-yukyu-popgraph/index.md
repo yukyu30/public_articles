@@ -7,6 +7,7 @@ tags: ["work", "つくったもの"]
 ---
 
 幾何学図形を数字に割り当てたフォントを制作しました。
+![yukyu popgraph](./popgraph.jpeg)
 
 ## 概要
 

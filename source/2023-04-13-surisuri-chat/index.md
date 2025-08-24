@@ -8,7 +8,7 @@ tags: ["work", "つくったもの"]
 
 商品検索とスリスリくんとの会話ができるAIチャットアプリケーションを開発しました。
 
-![Surisuri AI Chat](https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=800&h=400&fit=crop)
+![Surisuri AI Chat](./ai-chat.png)
 
 ## 概要
 
