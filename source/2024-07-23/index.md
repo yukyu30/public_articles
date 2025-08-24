@@ -21,7 +21,7 @@ tags: ["おでかけ", "日記"]
 市原ゾウの国に行った。
 ゾウさんのショーを見て、動物たちに餌をあげながら、園内を見て回った。
 
-![市原ゾウの国で見たゾウさん2匹](https://yukyu-net-production.s3.ap-northeast-1.amazonaws.com/9052a941-1917-4aa3-8d58-f98fddc14b78/Zou(1).jpg)
+![市原ゾウの国で見たゾウさん2匹](./Zou(1).jpg)
 
 ドムドムハンバーガーを食べた。小さい頃に行ったことがあるらしいが、記憶はないので実質初めてだった。美味しかった。
 <blockquote class="twitter-tweet" data-dnt="true" align="center"><p lang="ja" dir="ltr">ぞうの国でドムドムハンバーガーをたべた！！ <a href="https://t.co/F75RyHb4A8">pic.twitter.com/F75RyHb4A8</a></p>&mdash; yukyu (a.k.a ugo) (@yukyu30) <a href="https://twitter.com/yukyu30/status/1814876767473311843?ref_src=twsrc%5Etfw">July 21, 2024</a></blockquote>
@@ -70,7 +70,7 @@ BBQを終えたら、コテージでコーヒーを入れ、お菓子を食べ�
 露天風呂から海を眺めることができて絶景だった。
 
 自分たちにが1日目に行った海ほたるを見ることができて、なんともしみじみした気持ちになった。
-![屋上から撮った写真。水平線に船が見える](https://yukyu-net-production.s3.ap-northeast-1.amazonaws.com/9b882d9a-dadb-4a58-be3a-f8435aa40313/Umi(1).jpg)
+![屋上から撮った写真。水平線に船が見える](./Umi(1).jpg)
 
 ## ハプニング
 1. 帰り始めてすぐにお腹が痛くなって、PAによる

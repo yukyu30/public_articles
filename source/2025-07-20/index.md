@@ -8,7 +8,8 @@ tags: ["日記", "展示会", "おでかけ"]
 
 待ちに待った横浜美術館の[佐藤雅彦展　新しい×（作り方＋分かり方）](https://yokohama.art.museum/exhibition/202506_satomasahiko/)
 に行ってきた。
-![DSCF0145(2).JPG](https://yukyu-net-production.s3.ap-northeast-1.amazonaws.com/38784183-a036-455e-af96-f42f733ffc83/DSCF0145(2).JPG)
+![佐藤雅彦展](./佐藤雅彦展.jpeg)
+
 ## 蒐集への勇気
 佐藤雅彦さんは、ピタゴラスイッチや、だんご三兄弟などのコンテンツを作った映像作家。映像を作る中で、「作り方を作る」という手法と取っていた。
 

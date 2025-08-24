@@ -18,13 +18,13 @@ https://www.snowpeak.co.jp/contents/takibilounge/
 
 肉、野菜を焼いて食べました。事前に準備してくださった米を炊いて食べました。
 BBQで肉と白米のセットはとても美味しかったです。その後も、焼きそば、切り餅などを食べました。
-![1fromyukyunextblog(2).jpg](https://yukyu-net-production.s3.ap-northeast-1.amazonaws.com/c97196e6-77cf-495a-8234-b069f60ee30e/1fromyukyunextblog(2).jpg)
-![1fromyukyunextblog.jpg](1fromyukyunextblog.jpg)
+![1fromyukyunextblog(2).jpg](./takibi.jpg)
+![1fromyukyunextblog.jpg](./niku.jpg)
 
 寒くなったので、焚き火を囲み、お話しながらマシュマロを焼いたり、チョコレートなどを食べました。
 ゆったりとした時間を過ごすことができました。
 
-![1fromyukyunextblog(2).jpg](https://yukyu-net-production.s3.ap-northeast-1.amazonaws.com/c97196e6-77cf-495a-8234-b069f60ee30e/1fromyukyunextblog(2).jpg)
+![1fromyukyunextblog(2).jpg](./mashiro.jpg)
 
 人が集まっている時の誰も話していない時間が苦手で、緊張してしまうのですが、**焚き火であれば、なにも話さない時間も必要な時間になる気がして、リラックスすることができました。**
 焚き火は最高ですね。
