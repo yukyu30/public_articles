@@ -1,0 +1,19 @@
+name: Update Parent Repository Submodule
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-parent:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Trigger submodule update in yukyu-net-v2
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/yukyu30/yukyu-net-v2/dispatches \
+            -d '{"event_type": "update-submodule"}'
