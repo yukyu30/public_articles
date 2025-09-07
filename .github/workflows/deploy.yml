@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Trigger submodule update in yukyu-net-v2(use Content read right)
+      - name: Trigger submodule update in yukyu-net-v2
         run: |
           curl -X POST \
             -H "Accept: application/vnd.github.v3+json" \
