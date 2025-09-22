@@ -32,8 +32,8 @@ jobs:
       - name: Push changes
         if: success()
         run: |
-          if git diff --quiet; then
-            echo "No changes to commit"
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to push"
           else
-            git push origin main
+            git push
           fi

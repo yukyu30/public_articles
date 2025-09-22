@@ -42,14 +42,8 @@ def parse_frontmatter(content):
         return None, content
     
     frontmatter_text = match.group(1)
-    frontmatter = {}
-    for line in frontmatter_text.split('\n'):
-        if ':' in line:
-            key, value = line.split(':', 1)
-            frontmatter[key.strip()] = value.strip()
-    
     body = content[match.end():]
-    return frontmatter, body
+    return frontmatter_text, body
 
 def update_frontmatter(file_path):
     """Update frontmatter dates based on file status"""
@@ -60,30 +54,44 @@ def update_frontmatter(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    frontmatter, body = parse_frontmatter(content)
-    if frontmatter is None:
+    frontmatter_text, body = parse_frontmatter(content)
+    if frontmatter_text is None:
         print(f"No frontmatter found in {file_path}")
         return False
     
     status = get_file_status(file_path)
     current_time = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3] + 'Z'
     
+    # Parse existing frontmatter to check for created_at/updated_at
+    has_created_at = 'created_at:' in frontmatter_text or 'created_at :' in frontmatter_text
+    has_updated_at = 'updated_at:' in frontmatter_text or 'updated_at :' in frontmatter_text
+    
+    lines = frontmatter_text.strip().split('\n')
+    new_lines = []
+    updated_at_updated = False
+    
+    for line in lines:
+        if 'updated_at' in line and ':' in line:
+            new_lines.append(f'updated_at: {current_time}')
+            updated_at_updated = True
+            print(f"Updated updated_at in {file_path}")
+        else:
+            new_lines.append(line)
+    
+    # Add missing fields
     if status == 'new':
-        if 'created_at' not in frontmatter:
-            frontmatter['created_at'] = current_time
+        if not has_created_at:
+            new_lines.append(f'created_at: {current_time}')
             print(f"Added created_at to {file_path}")
-        if 'updated_at' not in frontmatter:
-            frontmatter['updated_at'] = current_time
+        if not has_updated_at:
+            new_lines.append(f'updated_at: {current_time}')
             print(f"Added updated_at to {file_path}")
     else:
-        frontmatter['updated_at'] = current_time
-        print(f"Updated updated_at in {file_path}")
+        if not updated_at_updated and not has_updated_at:
+            new_lines.append(f'updated_at: {current_time}')
+            print(f"Added updated_at to {file_path}")
     
-    new_frontmatter = '---\n'
-    for key, value in frontmatter.items():
-        new_frontmatter += f'{key}: {value}\n'
-    new_frontmatter += '---'
-    
+    new_frontmatter = '---\n' + '\n'.join(new_lines) + '\n---'
     new_content = new_frontmatter + body
     
     with open(file_path, 'w', encoding='utf-8') as f:
