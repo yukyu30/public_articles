@@ -1,0 +1,41 @@
+name: Update Frontmatter Dates
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'source/**/*.md'
+
+jobs:
+  update-dates:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      
+      - name: Configure Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+      
+      - name: Update frontmatter dates
+        run: python .github/scripts/update_frontmatter_dates.py
+      
+      - name: Push changes
+        if: success()
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit"
+          else
+            git push origin main
+          fi
