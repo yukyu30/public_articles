@@ -79,17 +79,15 @@ def update_frontmatter(file_path):
             new_lines.append(line)
     
     # Add missing fields
-    if status == 'new':
-        if not has_created_at:
-            new_lines.append(f'created_at: {current_time}')
-            print(f"Added created_at to {file_path}")
-        if not has_updated_at:
-            new_lines.append(f'updated_at: {current_time}')
-            print(f"Added updated_at to {file_path}")
-    else:
-        if not updated_at_updated and not has_updated_at:
-            new_lines.append(f'updated_at: {current_time}')
-            print(f"Added updated_at to {file_path}")
+    # Always add created_at if it doesn't exist
+    if not has_created_at:
+        new_lines.append(f'created_at: {current_time}')
+        print(f"Added created_at to {file_path}")
+    
+    # Add or ensure updated_at exists
+    if not updated_at_updated and not has_updated_at:
+        new_lines.append(f'updated_at: {current_time}')
+        print(f"Added updated_at to {file_path}")
     
     new_frontmatter = '---\n' + '\n'.join(new_lines) + '\n---'
     new_content = new_frontmatter + body
