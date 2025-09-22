@@ -2,8 +2,6 @@ name: Update Frontmatter Dates
 
 on:
   push:
-    branches:
-      - main
     paths:
       - 'source/**/*.md'
 
