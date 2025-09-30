@@ -2,7 +2,7 @@
 id: exhibitions
 title: 今まで行った展示・美術館(随時更新)
 created_at: 2025-08-25T00:00:00.000Z
-updated_at: 2025-08-25T00:00:00.000Z
+updated_at: 2025-09-30T15:51:45.488Z
 tags: ["おでかけ"]
 --- 
 
