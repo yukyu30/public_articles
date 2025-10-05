@@ -1,8 +1,7 @@
 ---
-title: yukyu調査データ
+title: プロフィール
 created_at: 2025-01-10T17:27:46.911Z
 updated_at: 2025-10-05T14:42:45.193Z
-tags: ["日記", "お知らせ"]
 ---
 
 本名は、`Permission Denied` 。
