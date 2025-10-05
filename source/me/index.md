@@ -5,15 +5,24 @@ updated_at: 2025-10-05T14:42:45.193Z
 tags: ["日記", "お知らせ"]
 ---
 
-| 名前 | [閲覧禁止] [閲覧禁止] |
-| ハンドルネーム | yukyu |
-| 生年月日 | [閲覧禁止]年9月30日 |
-| 居住地 | 東京都[閲覧禁止] |
-| 所属 | GMOペパボ株式会社 メタバース推進室 |
-| 職種 | エンジニアリングリード |
-| 資格 | 基本情報技術者, 上級VR技術者 |
+本名は、`Permission Denied` 。
+`Permission Denied`年に群馬県で生まれる。
+中学生の頃に父親の古いノートパソコンを譲り受け、VocaloidやUTAUを活用した動画を投稿し、インターネット上で創作活動を始める。
+`Permission Denied`年に`Permission Denied`大学を卒業し、`Permission Denied`年に`Permission Denied`大学院を修了。大学院では画像処理分野を専攻し、次世代HMD（ヘッドマウントディスプレイ）の研究に従事した。
 
-## 職歴
+2022年、GMOペパボ株式会社に入社。
+クリエイターEC「SUZURI」の開発に参画し、RailsとReactを用いたWebアプリケーション開発を担当。
+その後、デジタルコンテンツチームにて、3Dグッズ生成機能の開発をはじめとしたメタバース領域の取り組みに従事。
+
+2025年より、メタバース推進室 エンジニアリングリードとして、
+VRChatグッズデザインコンテストに関わる開発から、コンテンツ制作の業務効率化などを行なっている。
+に近い業務を担当。
+エンジニアとしての実装業務に加え、ロゴデザインや3Dモデル制作や3Dコンテンツ制作のR&Dなど幅広い業務に従事している。
+
+資格は基本情報技術者および上級VR技術者。
+趣味はコメダ珈琲。
+
+## 経歴
 
 | 期間                | 会社名           | 部署・チーム                                  | 職種                     |
 |---------------------|------------------|----------------------------------------|--------------------------|
@@ -23,6 +32,14 @@ tags: ["日記", "お知らせ"]
 | 2024/03/01 - 2024/12/31 | GMOペパボ株式会社 | SUZURI 事業部 デジタルコンテンツチーム  | エンジニア / **リーダー**     |
 | 2025/01/01 - 現在       | GMOペパボ株式会社 | **メタバース推進室**                     | エンジニア / **エンジニアリングリード** |
 
-## 登壇・出演
+## 登壇等
+- [Notionで拍手できるようにした話](https://speakerdeck.com/yukyu30/notiondepai-shou-dekiruyounisitahua),CTOA若手エンジニアコミュニティ 勉強会#1,2023年1月.
+- [あらゆるサイトをクイズにするサイトをつくった](https://speakerdeck.com/yukyu30/arayurusaitowo-kuizunisurusaitowotukututa),[フレッシュメンLT#0 夏祭り](https://connpass.com/event/285559/),2023年8月.
+- エンジニア研修を企画して得た学び,[kaonavi Tech Talk 〜若手エンジニア Face to Face LT会](https://kaonavi.connpass.com/event/328268/),2024年9月.
+- [3Dモデル作成から販売までを行うWebアプリケーションの裏側](https://speakerdeck.com/yukyu30/3dmoderuzuo-cheng-karafan-mai-madewoxing-uwebapurikesiyonnoli-ce),[BuriKaigi 2025](https://fortee.jp/burikaigi-2025),2025年2月.
+- トークセッション,[新卒トークセッション](https://youtu.be/xs4AHwFCf_c?si=wNtVXyrTb6E_xOkC&t=1466),GMOペパボ新卒説明会 in VRChat,2025年3月.
+- 動画出演, [メタバース推進室 担当者へのインタビュー](https://youtu.be/ylshE2_idz0?si=C1fnvzWh0Vntg9cz),GMOペパボ株式会社 2025年12月期中間 株主通信動画,2025年9月.
 
-
+## 執筆物
+### Webメディア
+- [最高気温から適切な服装を教えてくれる装置を作ってみた](https://www.shumi-tech.online/entry/2019/03/24/%E6%9C%80%E9%AB%98%E6%B0%97%E6%B8%A9%E3%81%8B%E3%82%89%E9%81%A9%E5%88%87%E3%81%AA%E6%9C%8D%E8%A3%85%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%82%8C%E3%82%8B%E8%A3%85%E7%BD%AE%E3%82%92%E4%BD%9C),趣味TECHオンライン, 2019年3月.
