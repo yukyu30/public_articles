@@ -36,11 +36,11 @@ VRChatグッズデザインコンテストに関わる開発から、コンテ�
 - エンジニア研修を企画して得た学び,[kaonavi Tech Talk 〜若手エンジニア Face to Face LT会](https://kaonavi.connpass.com/event/328268/),2024年9月.
 - [3Dモデル作成から販売までを行うWebアプリケーションの裏側](https://speakerdeck.com/yukyu30/3dmoderuzuo-cheng-karafan-mai-madewoxing-uwebapurikesiyonnoli-ce),[BuriKaigi 2025](https://fortee.jp/burikaigi-2025),2025年2月.
 - トークセッション,[新卒トークセッション](https://youtu.be/xs4AHwFCf_c?si=wNtVXyrTb6E_xOkC&t=1466),GMOペパボ新卒説明会 in VRChat,2025年3月.
-- 動画出演, [メタバース推進室 担当者へのインタビュー](https://youtu.be/ylshE2_idz0?si=C1fnvzWh0Vntg9cz),GMOペパボ株式会社 2025年12月期中間 株主通信動画,2025年9月.
 
 ## 執筆物
 ### Webメディア
 - [最高気温から適切な服装を教えてくれる装置を作ってみた](https://www.shumi-tech.online/entry/2019/03/24/%E6%9C%80%E9%AB%98%E6%B0%97%E6%B8%A9%E3%81%8B%E3%82%89%E9%81%A9%E5%88%87%E3%81%AA%E6%9C%8D%E8%A3%85%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E3%81%8F%E3%82%8C%E3%82%8B%E8%A3%85%E7%BD%AE%E3%82%92%E4%BD%9C),趣味TECHオンライン, 2019年3月.
 
 ## 取材を受けた記事等
+- 動画出演, [メタバース推進室 担当者へのインタビュー](https://youtu.be/ylshE2_idz0?si=C1fnvzWh0Vntg9cz),GMOペパボ株式会社 2025年12月期中間 株主通信動画,2025年9月.
 - [“ゼロから任される” SUZURIの新卒2年目コンビに話を聞いてみました](https://hr.pepabo.com/interview/2023/12/15/9386),2023年12月
