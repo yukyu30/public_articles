@@ -5,9 +5,9 @@ updated_at: 2025-10-09T16:04:41.971Z
 ---
 
 本名は、`Permission Denied` 。
-`Permission Denied`年に群馬県で生まれる。
-中学生の頃に父親の古いノートパソコンを譲り受け、VocaloidやUTAUを活用した動画を投稿し、インターネット上で創作活動を始める。
-`Permission Denied`年に`Permission Denied`大学を卒業し、`Permission Denied`年に`Permission Denied`大学院を修了。大学院では画像処理分野を専攻し、次世代HMD（ヘッドマウントディスプレイ）の研究に従事した。
+`Permission Denied`年に群馬県で生まれた。
+中学生の頃に父親の古いノートパソコンを譲り受け、VocaloidやUTAUを活用した動画を投稿し、インターネット上で創作活動を始めた。
+`Permission Denied`年に`Permission Denied`大学を卒業し、`Permission Denied`年に`Permission Denied`大学院を修了。大学院では画像処理分野を専攻し、次世代HMD（ヘッドマウントディスプレイ）の研究に従事。
 
 2022年、GMOペパボ株式会社に入社。
 クリエイターEC「SUZURI」の開発に参画し、RailsとReactを用いたWebアプリケーション開発を担当。
