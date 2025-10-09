@@ -1,7 +1,7 @@
 ---
 title: プロフィール
 created_at: 2025-01-10T17:27:46.911Z
-updated_at: 2025-10-09T16:04:41.971Z
+updated_at: 2025-10-09T16:20:47.366Z
 ---
 
 本名は、`Permission Denied` 。
