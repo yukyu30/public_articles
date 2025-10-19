@@ -12,7 +12,7 @@ updated_at: 2025-10-19T15:15:15.448Z
 
 橋本 麦さんが、実験映像を作るにあたり、どのように新しい手法を編み出しているのかという話を聞いた。
 
-橋本 麦さんのことを知らない人向けにが自分が一番好きなのはEYEの㎹を貼っておく。
+橋本 麦さんのことを知らない人向けに自分が一番好きなEYEのMVを貼っておく。
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WSFeje8-4Vc?si=RZjKXT6JhJ32iy27" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 制作過程は[Making-of: group_inou - EYE](https://baku89.com/ja/making-of/eye)で公開されている。制作過程にあるように、映像を作るために道具をツール・ソフトウェアを作り、それらも公開している。
@@ -40,7 +40,7 @@ SUZURIの開発に携わった時に会計の知識が必要となった場面�
 気持ち良いくらいにロジックがしっかりしていておもろい。楽しい。
 
 ## メインバンクを住信SBIからSBI新生へ
-SBI証券をつかっているが、SBI新生とSBI証券を連携させるだけで、住信SBIのランク3相当の優遇があって便利。
+SBI新生とSBI証券を連携させるだけで、住信SBIのランク3相当の優遇があって便利だった。
 コンビニATMの利用に関しては回数制限なく0円なので、住信SBIよりも魅力的だった。
 
 引き落としの類は三井住友にまとめているので特に問題なく変更できた。
