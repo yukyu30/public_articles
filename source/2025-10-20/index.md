@@ -2,7 +2,7 @@
 title: 熱海旅行
 tags: ["おでかけ"]
 created_at: 2025-10-20
-updated_at: 2025-10-20
+updated_at: 2025-10-19T16:54:43.404Z
 ---
 ![alt text](image-8.png)
 
