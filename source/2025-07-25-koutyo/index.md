@@ -3,7 +3,7 @@ title: VRC全校集会
 tags: ["work"]
 rss: false
 created_at: 2025-10-20T16:15:04.344Z
-updated_at: 2025-10-20T16:15:04.344Z
+updated_at: 2025-10-20T16:30:54.444Z
 ---
 ![alt text](./image.png)
 
