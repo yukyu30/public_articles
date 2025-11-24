@@ -26,6 +26,4 @@ tags: ["おでかけ"]
 | 2025年9月 | MOA美術館 | 熱海 |[熱海旅行](./2025-10-20)|
 | 2025年11月 | 藤本壮介の建築：原初・未来・森 | 東京(森美術館) | [藤本壮介の建築：原初・未来・森に行ってきた](./2025-11-10) |
 | 2025年11月 | 時代のプリズム | 東京(国立新美術館) | - |
-| 2025年11月 | TYPE-XIII Atelier Oï project
-by A-POC ABLE ISSEY MIYAKE：
-一枚の布から生まれる、新しい光のかたち | 東京(21_21 DESIGN SIGHT) | - |
+| 2025年11月 | TYPE-XIII Atelier Oï project by A-POC ABLE ISSEY MIYAKE：一枚の布から生まれる、新しい光のかたち | 東京(21_21 DESIGN SIGHT) | - |
