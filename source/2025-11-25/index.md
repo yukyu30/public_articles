@@ -1,6 +1,8 @@
 ---
 title: Even G2を予約した
 tags: ["日記"]
+created_at: 2025-11-24T17:03:25.055Z
+updated_at: 2025-11-24T17:03:25.055Z
 ---
 
 Even G2を予約してきた。
