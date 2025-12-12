@@ -43,6 +43,7 @@ VRChatグッズデザインコンテストに関わる開発から、コンテ�
 
 ## 取材を受けた記事等
 - 動画出演, [メタバース推進室 担当者へのインタビュー](https://youtu.be/ylshE2_idz0?si=C1fnvzWh0Vntg9cz),GMOペパボ株式会社 2025年12月期中間 株主通信動画,2025年9月.
+- 動画出演, [GMOペパボ新卒説明会 in VRChat](https://youtu.be/xs4AHwFCf_c?si=-X-LbWimzBfY_zs9&t=1464),GMOペパボ新卒説明会 in VRChat,2025年3月.
 - [“ゼロから任される” SUZURIの新卒2年目コンビに話を聞いてみました](https://hr.pepabo.com/interview/2023/12/15/9386),2023年12月
 
 ## 資格
