@@ -6,7 +6,7 @@ updated_at: 2025-11-07T19:03:25.055Z
 ---
 
 
-この記事は、[#意識低いトレーニング部 Advent Calendar 2025](https://adventar.org/calendars/11903)の18日目です。前日は@yukyanの[hoge](fuga)でした。
+この記事は、[#意識低いトレーニング部 Advent Calendar 2025](https://adventar.org/calendars/11903)の18日目です。
 
 ---
 
