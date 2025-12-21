@@ -112,3 +112,9 @@ ClaudeCodeを使ってアドオンの開発を行いました。
 
 動作確認のたびにインストールし直すのが面倒なので、ファイルが編集されるたびにアドオンを再読み込みする「[WatchAddon](https://github.com/SaitoTsutomu/WatchAddon)」を利用しました。
 
+## おわりに
+自分でVRChatアバターをMarvelous Designerに持っていく作業を楽にするために作ったツールですが、同じような悩みを持っている方の助けになれば嬉しいです。
+
+最近はシンプルな服をMarvelous Designerで作って楽しんでいます。
+
+![alt text](G7fa87vbEAA7-7h.jpeg)
