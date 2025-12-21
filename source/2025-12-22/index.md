@@ -1,5 +1,5 @@
 ---
-title: VRChatアバターをMarvelous Designerに持っていくのをサポートするツールを作りました
+title: VRChatアバターをMarvelous Designerに持っていくのをサポートするBlenderアドオンを作りました
 tags: ["つくったもの", "Advent Calendar"]
 created_at: 2025-12-22T00:00:00.000Z
 updated_at: 2025-12-21T15:04:02.346Z
@@ -11,7 +11,7 @@ updated_at: 2025-12-21T15:04:02.346Z
 ---
 
 
-VRChat向けのアバターをMarvelous Designerに持っていくのが面倒でした。そこで、それをサポートするツール「OptimizeForMD」を作りました。
+VRChat向けのアバターをMarvelous Designerに持っていくのが面倒でした。そこで、それをサポートするBlenderアドオン「OptimizeForMD」を作りました。
 
 
 
