@@ -1,5 +1,5 @@
 ---
-title: VRChatアバターをMarvelous Designerに持っていくのとサポートするツールを作りました
+title: VRChatアバターをMarvelous Designerに持っていくのをサポートするツールを作りました
 tags: ["つくったもの", "Advent Calendar"]
 created_at: 2025-12-22T00:00:00.000Z
 updated_at: 2025-12-22T00:00:00.000Z
@@ -24,6 +24,14 @@ https://github.com/yukyu30/OptimizeForMD/releases
 
 **SUZURI**
 <iframe height="164" width="375" src="https://suzuri.jp/yukyu30/digital_products/117001/embed"></iframe>
+
+## 機能
+
+- ボーンの削除 - 選択したボーンの子ボーンを一括削除
+- シェイプキーの一括適用 - 現在の状態をデフォルトとして適用し、他を削除
+- Aポーズ変換 - VRChatアバターをAポーズに簡単変換
+- Bodyと衣装の分割エクスポート - ボディはFBX、衣装はobjで別々に出力
+- マテリアルの一括削除 - マテリアルエラー回避のため一括削除
 
 ## 使い方
 ### ボーンの削除
@@ -70,7 +78,7 @@ objは副資材としてインポートします。インポートから追加�
 ## アドオン制作の過程
 
 ### MD特有の必要な処理や設定の洗い出し
-Marvelous Designerにアバターとして取り込むための必要な処理や設定を洗い出しました。
+Marvelous Designerにアバターとして取り込むための必要な処理や設定を洗い出しました。自分が実際に作業をする中で必要になったものと中心に以下の5つを実装しました。
 
 1. Aポーズの設定
 2. ボディと衣装での分割
