@@ -1,6 +1,6 @@
 ---
 title: 今年のトレーニング
-tags: ["振り返り"]
+tags: ["振り返り", "Advent Calendar"]
 created_at: 2025-12-07T19:03:25.055Z
 updated_at: 2025-12-19T12:43:02.104Z
 ---
