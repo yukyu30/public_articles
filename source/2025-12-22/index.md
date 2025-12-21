@@ -2,7 +2,7 @@
 title: VRChatアバターをMarvelous Designerに持っていくのをサポートするツールを作りました
 tags: ["つくったもの", "Advent Calendar"]
 created_at: 2025-12-22T00:00:00.000Z
-updated_at: 2025-12-22T00:00:00.000Z
+updated_at: 2025-12-21T15:04:02.346Z
 ---
 
 ---
