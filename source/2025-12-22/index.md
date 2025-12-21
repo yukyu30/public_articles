@@ -11,7 +11,7 @@ updated_at: 2025-12-22T00:00:00.000Z
 ---
 
 
-Marvelous Designerでアバター用の衣装を製作を行う中でVRChat向けのアバターをMarvelous Designerに持っていくのが面倒でした。そこで、サポートするツール「OptimizeForMD」を作りました。
+VRChat向けのアバターをMarvelous Designerに持っていくのが面倒でした。そこで、それをサポートするツール「OptimizeForMD」を作りました。
 
 
 
@@ -26,7 +26,7 @@ https://github.com/yukyu30/OptimizeForMD/releases
 <iframe height="164" width="375" src="https://suzuri.jp/yukyu30/digital_products/117001/embed"></iframe>
 
 ## 機能
-
+Blender4.0,5.0系での動作を確認しています。
 - ボーンの削除 - 選択したボーンの子ボーンを一括削除
 - シェイプキーの一括適用 - 現在の状態をデフォルトとして適用し、他を削除
 - Aポーズ変換 - VRChatアバターをAポーズに簡単変換
@@ -37,6 +37,7 @@ https://github.com/yukyu30/OptimizeForMD/releases
 ### ボーンの削除
 Hair Rootなどを選択して、
 Delete Bone with Child Bonesを実行すると、選んだボーンの子のすべてのボーンを一括削除します。
+![alt text](bone-remove.png)
 
 ### シェイプキーの一括適用
 Apply All Shapekeysを実行すると、現在の状態をデフォルトとしてシェイプキーを適用し、他のシェイプキーを削除します。
