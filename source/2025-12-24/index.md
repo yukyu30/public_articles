@@ -2,7 +2,7 @@
 title: M!LKについて語らせてください 2025
 tags: ["Advent Calendar"]
 created_at: 2025-12-24T00:00:00.000Z
-updated_at: 2025-12-24T15:10:07.793Z
+updated_at: 2025-12-23T16:40:53.040Z
 ---
 
 ---
