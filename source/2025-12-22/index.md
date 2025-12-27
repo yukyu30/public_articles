@@ -1,6 +1,6 @@
 ---
 title: VRChatアバターをMarvelous Designerに持っていくのをサポートするBlenderアドオンを作りました
-tags: ["つくったもの", "Advent Calendar"]
+tags: ["つくったもの", "Advent Calendar","work"]
 created_at: 2025-12-22T00:00:00.000Z
 updated_at: 2025-12-21T15:10:07.793Z
 ---
